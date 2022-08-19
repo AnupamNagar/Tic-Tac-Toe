@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aquamarine;
+    /* text-align: center; */
+}
+html{
+    font-size: 10px;
+}
+.main{
+    /* text-align: center; */
+    /* width: 10vh; */
+    margin-left: 60rem;
+    margin-top: 2rem;
+    
+    /* background-color: aqua; */
+}
+#box1,#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9{
+    border: 1px solid black;
+    height: 20rem;
+    width: 20rem;
+    float: left;
+    font-size: 20rem;
+    text-align: center;
+}
+#box1,#box4,#box7{
+    clear: left;
+    border-left: none;
+}
+#box3,#box6, #box9{
+    /* clear: right; */
+    border-right: none;
+}
+#box1,#box2 , #box3{
+    border-top: none;
+}
+#box7,#box8,#box9{
+    border-bottom: none;
+}
